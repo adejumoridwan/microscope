@@ -82,3 +82,8 @@ class BaseCallback(abc.ABC):
         :rtype: str
         """
         return f"{self.__class__.__name__}(name='{self.name}')"
+
+"""
+Callback classes are user defined functions objects that are passed into a library or framework to be called at specific points during the execution of an algoritm,
+instead of modifyng the core library code, the call back classes are modified
+"""
